@@ -1,0 +1,25 @@
+! name: BraveAR
+! description: Only allows domains registered in Argentina. Name is based on a common trope from Argentinian government programs that end in AR. Not affiliated with Brave.
+! public: true
+! author: Arbakato
+! avatar: 75aadb
+! homepage: https://github.com/Arbakato/Unwikied-Search
+! issues: https://github.com/Arbakato/Unwikied-Search/issues
+! version: 1.0.4
+
+$discard
+
+$boost,site=ar
+!$boost,site=com.ar
+!$boost,site=net.ar
+!$boost,site=musica.ar
+!$boost,site=tur.ar
+!$boost,site=org.ar
+!$boost,site=gob.ar
+!$boost,site=mil.ar
+!$boost,site=int.ar
+!$boost,site=edu.ar
+!$boost,site=senasa.ar
+!$boost,site=coop.ar
+!$boost,site=mutual.ar
+!$boost,site=bet.ar
