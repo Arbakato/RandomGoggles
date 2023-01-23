@@ -1,0 +1,12 @@
+! name: Archived Search
+! description: Made for searches inside archive.org. Why? No idea, honestly. 
+! public: true
+! author: Arbakato
+! avatar: f2bb4c
+! homepage: https://github.com/Arbakato/RandomGoggles
+! issues: https://github.com/Arbakato/RandomGoggles/issues
+! version: 1.0
+
+$discard
+
+$boost,site=archive.org
